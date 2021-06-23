@@ -1,0 +1,11 @@
+social media logos:
+https://iconify.design/icon-sets/?query=dribble
+
+free fonts:
+https://fonts.google.com/specimen/Tangerine?category=Handwriting
+
+to check if few html-css elements are supposerted by diff browsers:
+https://caniuse.com/
+
+site to checkout tags
+https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements

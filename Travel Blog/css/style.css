@@ -1,0 +1,227 @@
+html {
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Bodoni Moda', serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+    color: whitesmoke ;
+}
+
+.background {
+    background: rgba(90, 57, 28, 0.8);   
+} 
+
+header {
+    background:  rgba(90, 57, 28, 1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    margin: 0;
+    padding-top: 15px;
+    font-family: 'League Script', cursive;
+    /* font-family: 'Tangerine', cursive; */
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+ul {
+    padding: 0;
+}
+
+.journey-image {
+    background: url(../images/IMG_0357.JPG) no-repeat center center fixed;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;   
+}
+
+.text-block {
+    margin: 0;
+    padding: 30px;
+    align-items: center;   
+}
+
+.journey-text1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.journey-text2 {
+    justify-content: center;
+    text-align: center;
+    font-size: 4.5em;
+    margin: 0;
+    
+}
+
+.journey-text3 {
+    text-align: center;
+    font-size: 1.7em;
+    margin: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-block > .journey-btn {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+button {
+    background-color: rgba(26, 26, 26, 0.01); 
+    border: 2px solid whitesmoke;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    transition-duration: 0.4s;
+    margin: 0;
+}
+
+button:hover {
+    background-color: rgba(26, 26, 26, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: black;
+}
+
+/* blog- jaisalmer */
+
+.journey-image-short {
+    background: url(../images/IMG_0357.JPG) no-repeat center center fixed;
+    min-height: 20vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;  
+}
+
+.journey-text-short {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-widget > h2 {
+    margin: 0;
+    padding: 0%;
+}
+
+article,.sidebar-widget {
+    padding: 15px;
+    margin: 15px 0;
+}
+
+article > header {
+    /* background: maroon; */
+    display: flex;
+}
+
+.iconify { 
+    width: 30px; 
+    height: 30px;
+    margin: 0 5px;
+ }
+
+td:nth-child(2) {
+    padding-left: 10px;
+ } /* to apply changes to the 2nd element in td (table element) */
+
+ .row {
+    display: flex;
+  }
+
+  .column > .row1 img {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 10px;
+    
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 5px;
+    
+  }
+
+@media (min-width: 1000px) {
+    body {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    header li {
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    header h1, header nav {
+        flex: 1;
+    } 
+
+    /*
+    article > header h2, article > header ul {
+        flex: 0 0 auto;
+    } */
+
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    /* blog */
+
+    /* .wrapper {
+        flex-direction: row;
+    } 
+
+    main {
+        flex: 3;
+    }
+
+    aside {
+        flex: 1;
+        margin-left: 15px;
+    }*/
+
+    article > header{
+        justify-content: space-around;
+    }
+
+}
+
+
+
+
